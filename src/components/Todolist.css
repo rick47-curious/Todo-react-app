@@ -5,8 +5,21 @@
     padding:1.5rem;
     border: 1px solid black;
     border-radius: 1rem;
+    background-color: ghostwhite;
+    opacity: 0.8;
+    
 }
 
+#dataEntry > button{
+    width:5rem;
+    border-radius: 1rem;
+    margin:2.5rem;
+    margin-left:4.5rem;
+}
+
+#heading{
+    color: goldenrod;
+}
 #displayarea{
     min-height:50vh;
     height: auto;
@@ -19,7 +32,16 @@
 }
 #displayarea .container .row{
     height: 5rem;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 0.8rem;
-    padding:1rem;
+    padding:1.5rem;
+    background-color: ghostwhite;
+    opacity:0.8;
+}
+
+.button-area{
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    bottom:20%;
 }
