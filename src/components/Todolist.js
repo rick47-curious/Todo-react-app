@@ -87,7 +87,7 @@ export default class Todolist extends React.Component {
         return (
             <>
                 <h1 className='text-center'>Your Pocket Todo App</h1>
-                <div className='m-4 d-flex justify-content-around'>
+                <div className='m-4 d-flex justify-content-around main-container'>
                     {this.state.isEdit === true ? (<form id="dataEntry" className='mt-3'>
                         <div className="mb-3">
                             <div className="h4">Edit</div>
